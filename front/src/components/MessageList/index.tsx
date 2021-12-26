@@ -48,7 +48,7 @@ export function MessageList()
             <ul className={styles.messageList}>
                 {last3.map(message=>{
                     return(
-                        <li key={message.id} className={styles.message}>
+                        <li key={message.id } className={styles.message}>
                             <p className={styles.messageContent}>
                                {message.text}
                             </p>
